@@ -186,7 +186,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-color);
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -262,7 +262,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .hero-example-list .hero-example-item + .hero-example-item {
@@ -281,7 +281,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .hero-team-list .hero-team-item + .hero-team-item {
@@ -432,6 +432,9 @@ body {
 
 .div-title {
   padding: 20px 24px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .portfolio-text {
